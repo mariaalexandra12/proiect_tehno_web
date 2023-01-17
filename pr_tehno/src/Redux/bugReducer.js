@@ -6,13 +6,13 @@ const bug=createBug({
         getBug:(state)=>{
 
         },
-        createBug:(state)=>{
+        createBug:(state,action)=>{
 
         } ,
-        updateBug:(state)=>{
+        updateBug:(state,action)=>{
 
         },
-        markComplete:(state)=>{
+        markComplete:(state,action)=>{
             
         }
 
