@@ -4,7 +4,7 @@ import {signIn} from 'authReducer.js';
 
 const dispatch=useDispatch();
 const [formInput,setformInput] = useState({
-    name:"",
+    adress:"",
     password:""
 })
 
@@ -17,4 +17,5 @@ function inputChange(event) {
 
 function submit(event) {
         dispatch(signIn(formInput));
+        event.preventDefault();
 }
