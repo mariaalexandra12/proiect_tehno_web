@@ -5,5 +5,13 @@
     margin-left:-20px;
     margin-top: -26px;
     background-color: black;
+    background-attachment: fixed;
+}
+
+.login{
+    background-color:violet;
+    width: 30px;
+    border:5px salmon;
+    border-radius:5px;
     
 }

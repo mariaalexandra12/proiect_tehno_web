@@ -1,7 +1,8 @@
 
 import './App.css';
 import React from 'react';
-import login from './View/LogIn/login';
+import './View/LogIn/login.jsx';
+import './View/LogIn/login.css';
 
 function App() {
   return (
