@@ -1,7 +1,7 @@
 
 import './App.css';
-import  './View/LogIn/login.html';
-import './View/LogIn/login.js';
+import  '../../my-app/src/View/LogIn/login.html';
+import '../../my-app/src/View/LogIn/login.js ';
 
 
 function App() {

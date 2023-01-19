@@ -1,6 +1,6 @@
 import {createSlice} from '@reduxjs/toolkit'
 
-const slice=cretaeSlice({
+const slice=createSlice({
     name:"user",
     initialState:[{}],
     reducers:{
