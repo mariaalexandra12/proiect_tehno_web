@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head>
- <script src="login.js"></script>
-</head>
-<body>
-    <div className="loginBG">
-        <form className="login">
+<html lang="en">
+       <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./login.js"></script>
+          </head>
+
+  <body>
+      <div className="loginBG">
+          <form className="login">
             <h1>LogIN</h1>
             <input name="username" placeholder="Username" type="text" onChange={inputChanged}
              value={formInput.name}>
             <input name="password" type="password" placeholder="Password" onchange={}
             value={formInput.password}>
             <button type="submit" onClick={submit}>Login</button>
-        </form>
-    </div>
-</body>
-
+           </form>
+       </div>
+    </body>
 
 </html>
