@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {useDispatch} from 'react-redux';
 import {sigIn} from  '../../Controllers/Redux/authRedux'
-import './login.css'
+import '../LogIn/login.css'
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
