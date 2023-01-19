@@ -1,28 +1,26 @@
 .loginBG{
-    width: 400px;
+    width: 550px;
     height: 550px;
-    background-size: cover;
+    border-radius: 10px;
     margin-left:-20px;
-    margin-top: -26px;
-    background-color: black;
+    margin-top: 26px;
+    background-color: rgb(60, 196, 238);
     background-attachment: fixed;
+    background-size: cover;
     position:absolute;
 }
 
-.login{
-    background-color:violet;
-    width: 30px;
-    border:5px salmon;
-    border-radius:5px;
-    margin: 25px auto;
+.log{
+   
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 }
 
-.loginBG h1{
+.log h1{
     width: 100%;
+    color: black;
 }
 
 .loginBG input{
