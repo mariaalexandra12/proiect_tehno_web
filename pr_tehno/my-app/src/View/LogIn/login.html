@@ -7,10 +7,11 @@
     <div className="loginBG">
         <form className="login">
             <h1>LogIN</h1>
-            <input name="username" placeholder="Username" type="text" onChange={} value={}
+            <input name="username" placeholder="Username" type="text" onChange={inputChanged}
+             value={formInput.name}>
             <input name="password" type="password" placeholder="Password" onchange={}
-            value={}>
-            <button type="submit" onClick={}>Login</button>
+            value={formInput.password}>
+            <button type="submit" onClick={submit}>Login</button>
         </form>
     </div>
 </body>
