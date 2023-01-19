@@ -13,7 +13,7 @@ import userRedux from './Controllers/Redux/userRedux'
 //Redux configure
 const reducer=combineReducers({
   auth:authRedux,
-  bug:bugRedux,
+  bugs:bugRedux,
   user:userRedux,
 })
 

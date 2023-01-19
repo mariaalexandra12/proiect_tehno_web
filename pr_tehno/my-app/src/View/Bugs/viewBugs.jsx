@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react';
 import { useDispatch,useSelector } from 'react-redux';
 import {getBugs} from '../../Controllers/Redux/bugRedux'
-import Bugs from '../Bugs/bug'
+import Bugs from './View/Bugs'
 
 export default()=>{
     const dispatch=useDispatch();
