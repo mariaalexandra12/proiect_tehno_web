@@ -25,7 +25,7 @@
 .log h1{
     width: 100%;
     color: black;
-    font: arial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .loginBG input{
