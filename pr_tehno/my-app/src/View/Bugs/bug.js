@@ -1,4 +1,5 @@
 import React from 'react';
+import '.bug.css'
 
 export default (props)=>{
     function Clicked(){
