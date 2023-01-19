@@ -1,10 +1,10 @@
-import React,{userState} from 'react';
+import React,{useState} from 'react';
 import {useDispatch} from 'react-redux';
 import {sigIn} from  '../../Controllers/Redux/authRedux'
-import { useState } from 'react'
-import './login.css'
+//import './login.css'
 
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default ()=>{
    const dispatch=useDispatch();
    const [formInput,setformInput]=useState({
@@ -13,7 +13,7 @@ export default ()=>{
    }) 
 
    function inputChange(event){
-    setFormInput({
+    setformInput({
         ...formInput,
         [event.target.name]:event.target.value
     })
@@ -21,17 +21,18 @@ export default ()=>{
 
     function submit(event){
         dispatch(sigIn(formInput));
+        event.preventDefault();//pagina nu se va reload
     }
 
     return(
         <div className="loginBG">
             <form className="log">
                 <h1>LOGIN</h1>
-                <input name="username" placeholder="Username" onChange={} 
-                value={}></input>
-                <input name="password" placeholder="Password" onChange={} 
-                value={}></input>
-                <button type="submit" onClick={}>LogIN</button>
+                <input name="username" placeholder="Username" onChange={inputChange} 
+                value={formInput.name}></input>
+                <input name="password" placeholder="Password" onChange={inputChange} 
+                value={formInput.password}></input>
+                <button type="submit" onClick={submit}>LogIN</button>
             </form>
         </div>
     )
