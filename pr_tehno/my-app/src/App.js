@@ -5,6 +5,7 @@ import {useSelector} from 'react-redux'; //am folosit hookul useSelector pentru 
 import authRedux from './Controllers/Redux/authRedux';
 //info din input 
 
+import Bugs from './View/Bugs'
 
 function App() {
   const {auth}=useSelector(state=>state)
