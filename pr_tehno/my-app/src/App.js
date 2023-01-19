@@ -7,12 +7,13 @@ import authRedux from './Controllers/Redux/authRedux';
 
 
 function App() {
-  const {}=useSelector(state=>state)
+  const {auth}=useSelector(state=>state)
   return (
    <>
-   {!authRedux.Login ? 
+   {!auth.LoggedIn ? //verificam daca este logat 
     <Login />:
-    <h1>Logat cu succes</h1>}
+    <h1>Logat cu succes</h1> //va afisa un mesaj la conectare 
+    }
    </>
     
   );
