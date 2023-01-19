@@ -1,5 +1,9 @@
 .loginBG{
-    width: 100px;
-    height: 150px;
+    width: 400px;
+    height: 550px;
+    background-size: cover;
+    margin-left:-20px;
+    margin-top: -26px;
+    background-color: black;
     
 }
