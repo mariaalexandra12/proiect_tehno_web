@@ -8,9 +8,9 @@ button{
     background-color:rgb(80, 80, 245);
     border-radius: 5px;
     padding: 5px 20px; 
-    color:antiquewhite;
+    color:black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    margin-top: 10px;
 }
 
 button:hover{
