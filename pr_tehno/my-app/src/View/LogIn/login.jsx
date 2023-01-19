@@ -28,7 +28,7 @@ export default ()=>{
         <div className="loginBG">
             <form className="log">
                 <h1>LOGIN</h1>
-                <input name="username" placeholder="Username" onChange={inputChange} 
+                <input name="name" placeholder="Name" onChange={inputChange} 
                 value={formInput.name}></input>
                 <input name="password" placeholder="Password" onChange={inputChange} 
                 value={formInput.password}></input>

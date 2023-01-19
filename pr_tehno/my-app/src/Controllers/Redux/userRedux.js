@@ -5,12 +5,12 @@ const slice=createSlice({
     initialState:[{}],
     reducers:{
         getUser:(state) =>{
-            state.push({name:"Alexandra",})
-            state.push({name:"Maria",})
+            state.push({name:"Maria"})
+            state.push({name:"Alexandra"})
         }
     }
 })
 
-export default slice.reducers;
+export default slice.reducer;
 
 export const{getUser}=slice.actions;
