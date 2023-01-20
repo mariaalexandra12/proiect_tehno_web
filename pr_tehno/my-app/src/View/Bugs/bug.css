@@ -7,3 +7,8 @@
     min-height: 200px;
 }
 
+.bug:hover{
+    transition: all 0.5s;
+    transform: scale(1.5);
+}
+

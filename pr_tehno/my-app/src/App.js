@@ -3,7 +3,7 @@ import React from 'react';
 import Login from './View/LogIn/login';
 import {useSelector} from 'react-redux'; //am folosit hookul useSelector pentru a prelua
 import PagBug from './View/Bugs/Pag/pagBug';
-import ViewBugs from './View/Bugs/viewBugs';
+import ViewBugs from './View/Bugs/viewBugs.jsx';
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 
 
@@ -15,7 +15,7 @@ function App() {
     <>
        <PagBug />
        <Switch>
-           <Route path="/viewBugs">ViewBugs</Route>
+           <Route path="/viewbugs"><ViewBugs/></Route>
          </Switch>
     </>
     }
