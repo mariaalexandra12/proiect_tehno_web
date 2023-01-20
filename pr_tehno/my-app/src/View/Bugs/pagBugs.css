@@ -1,18 +1,16 @@
 .pagBug{
-    height: 100%;
-    width: 160px; 
-    position: fixed;
-    z-index: 1; 
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden; 
+    height: 95%;
+    width: 300px; 
+    position:absolute;
+    background-color: rgb(231, 139, 139);
     padding-top: 20px;
+    left: 0px;
+    bottom: 10px; 
+    top: 10px;
 }
 
 .pb{
-    margin-left: 100px;
-    margin-top: 60px;
-    background-color:transparent;
+     background-color:transparent;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -24,15 +22,26 @@
 
 .pb h1{
     width: 100%;
-    color: black;
+    color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-button{
+.view{
     background-color:rgb(80, 80, 245);
     border-radius: 5px;
     padding: 5px 20px; 
-    color:black;
+    color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.create{
+    background-color:rgb(80, 80, 245);
+    border-radius: 5px;
+    padding: 5px 20px; 
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    margin-left: 5px;
 }
