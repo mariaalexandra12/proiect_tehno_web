@@ -5,6 +5,7 @@ function bug(bug){
         this.details=bug.details;
         this.priority=bug.priority;
         this.creator=bug.creator;
+        this.severity=bug.severity;
     
     }
 }

@@ -1,0 +1,13 @@
+.sect{
+    min-width: 40%;
+    text-align: center;
+    background-color:bisque;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.sect h1{
+    margin: 0 0 15px 0;
+    border-bottom:5px groove black solid;
+}
