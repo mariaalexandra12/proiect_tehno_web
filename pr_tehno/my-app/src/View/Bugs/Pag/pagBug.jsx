@@ -1,18 +1,24 @@
 import React from 'react';
 import './pagBugs.css'
+import {Link} from 'react-router-dom';
+import {useDispatch,useSelector} from 'react-redux';
+import {SignOut, sigOut} from '../../../Controllers/Redux/authRedux'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ()=> {
+  const dispatch = useDispatch();
+  const{auth}=useSelector(state=>state);
+  function SignOut(){
+    dispatch(sigOut());
+  }
      return (
          <div className="pagBug">
-           <form className="pb">
-           <h1>Bug Details</h1>
-            <div className="btn">
-            <button id="view">View Bug</button>
-            <button id="create">Create Bug</button>
-            <button type="cancel" id="logo">Log Out</button>
-            </div>
-            </form>
+          <Link className="link" to="/"><h1>Bug Tracking</h1></Link>
+           <ul>
+            <li><Link to='/viewbugs' className="link">View bugs</Link></li>
+            {auth.admin && <li><Link to='/create' className="link">Create Bug</Link></li>}
+           </ul>
+           <button className="logout" onClick={SignOut}>Logout</button>
          </div>
          
      )

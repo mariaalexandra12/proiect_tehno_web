@@ -7,6 +7,7 @@
     left: 0px;
     bottom: 10px; 
     top: 10px;
+    text-align: center;
 }
 
 .pb{
@@ -26,18 +27,3 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#view{
-    width: 100%;
-    font-size: 25px;
-}
-
-#create{
-    width: 100%;
-    font-size: 25px;
-}
-
-#logo{
-    margin-top: 300px;
-    with:100%;
-    font-size: 25px;
-}
