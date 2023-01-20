@@ -7,15 +7,17 @@ export function retreiveBugs(){
         name:"Crash on load",
         details:"Crashes after 3 sec",
         priority:3,
-        creator:"Ionel"
+        creator:"Maria",
+        severity:4
     }))
 
     data.push(new bugModel({
         _id:1254,
         name:"Don't load",
         details:"Crashes after 3 sec",
-        priority:3,
-        creator:"Gigi"
+        priority:2,
+        creator:"Alexandra",
+        severity:6
     }))
 
     let sort=data.sort((a,b)=>{return a.priority-b.priority})

@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react';
 import { useDispatch,useSelector } from 'react-redux';
 import {getBugs} from '../../Controllers/Redux/bugRedux'
-import Bugs from '../../View/Bugs/bug'
+import Bugs from '../../View/Bugs/bug.js'
 
 export default()=>{
     const dispatch=useDispatch();
@@ -12,7 +12,7 @@ export default()=>{
     return (
         <div className="pag">
            {bugs.map((bug,key)=> {
-               <Bugs key={key} props={bug}/>
+               <Bugs key={key} bug={bug}/>
            })}
         </div>
     )

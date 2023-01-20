@@ -2,6 +2,7 @@ import React from 'react';
 import './bug.css';
 
 export default (props)=>{
+    const {name,priority} = props.bug;
     function Clicked(){
         props.clicked(props.name);
     }

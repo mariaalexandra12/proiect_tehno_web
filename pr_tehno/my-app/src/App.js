@@ -4,20 +4,20 @@ import Login from './View/LogIn/login';
 import {useSelector} from 'react-redux'; //am folosit hookul useSelector pentru a prelua
 import PagBug from './View/Bugs/Pag/pagBug';
 import ViewBugs from './View/Bugs/viewBugs';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 function App() {
   const {auth}=useSelector(state=>state)
   return (
-   <>
-   {!auth.LoggedIn ? //verificam daca este logat 
-    <Login />:
+   <Router>
+   {!auth.LoggedIn ?  <Login />:
     <>
-    <PagBug /> //se va deschide alta pagina cu Bug Details
-    <ViewBugs/>
+       <PagBug />
+      <ViewBugs />
     </>
     }
-   </>
+   </Router>
     
   );
 }
