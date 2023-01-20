@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react';
 import { useDispatch,useSelector } from 'react-redux';
 import {getBugs} from '../../Controllers/Redux/bugRedux'
-import Bugs from '../../View/Bugs/bug.js'
+import Bugs from '../../View/Bugs/bug'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default()=>{
