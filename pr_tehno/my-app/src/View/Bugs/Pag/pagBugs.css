@@ -10,20 +10,29 @@
     text-align: center;
 }
 
-.pb{
-     background-color:transparent;
-    display:flexbox;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    border-radius:1px solid gray;
-    width: 100%;
+.pagBug li{
+    padding: 15px;
+    font-size: 12px;
+    border-bottom: 2px groove;
 }
 
-
-.pb h1{
-    width: 100%;
-    color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.pagBug ul{
+    list-style: none;
+    color: #fff;
+    padding: 0px;
 }
 
+.pagBug link{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.pagBug li:hover{
+    transition: all 0.3s;
+    background-color: #fff;
+}
+
+.pagBug .logout{
+    position:absolute;
+    bottom: 0px;
+}
