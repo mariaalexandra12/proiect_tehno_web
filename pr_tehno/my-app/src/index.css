@@ -2,6 +2,7 @@ html{
     margin-left:20%;
     color:aquamarine;
     margin-top:10px;
+    position:fixed;
 }
 
 button{

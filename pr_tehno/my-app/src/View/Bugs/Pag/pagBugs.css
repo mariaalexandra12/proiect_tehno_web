@@ -1,0 +1,43 @@
+.pagBug{
+    height: 600px;
+    width: 300px; 
+    position:fixed;
+    background-color: rgb(231, 139, 139);
+    padding-top: 20px;
+    left: 0px;
+    bottom: 10px; 
+    top: 10px;
+}
+
+.pb{
+     background-color:transparent;
+    display:flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border-radius:1px solid gray;
+    width: 100%;
+}
+
+
+.pb h1{
+    width: 100%;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#view{
+    width: 100%;
+    font-size: 25px;
+}
+
+#create{
+    width: 100%;
+    font-size: 25px;
+}
+
+#logo{
+    margin-top: 300px;
+    with:100%;
+    font-size: 25px;
+}

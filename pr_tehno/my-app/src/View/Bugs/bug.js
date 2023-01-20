@@ -1,9 +1,9 @@
 import React from 'react';
-import '.bug.css'
+import './bug.css';
 
 export default (props)=>{
     function Clicked(){
-        props.Clicked(props.name);
+        props.clicked(props.name);
     }
     return (
         <div className="bug" onClick={Clicked}>
