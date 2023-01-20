@@ -9,11 +9,18 @@ export default()=>{
 
     useEffect(()=>{dispatch(getBugs());},[bugs.length<1])
 
+
+   function BugClicked(name) {
+
+   }
+
+
     return (
         <div className="pag">
            {bugs.map((bug,key)=> {
-               <Bugs key={key} bug={bug}/>
+               <Bugs key={key} bug={bug} clicked={BugClicked}/>
            })}
         </div>
     )
 }
+

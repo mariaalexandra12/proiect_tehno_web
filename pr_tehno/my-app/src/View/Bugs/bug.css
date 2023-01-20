@@ -3,6 +3,7 @@
     box-shadow: 2px 2px 2px;
     text-align: center;
     margin:15px;
-    width: 175px;
-    height: 100px;
+    min-width: 175px;
+    min-height: 100px;
 }
+

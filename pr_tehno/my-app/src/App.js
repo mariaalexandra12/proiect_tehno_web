@@ -4,7 +4,7 @@ import Login from './View/LogIn/login';
 import {useSelector} from 'react-redux'; //am folosit hookul useSelector pentru a prelua
 import PagBug from './View/Bugs/Pag/pagBug';
 import ViewBugs from './View/Bugs/viewBugs';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 
 
 function App() {
@@ -14,7 +14,9 @@ function App() {
    {!auth.LoggedIn ?  <Login />:
     <>
        <PagBug />
-      <ViewBugs />
+       <Switch>
+           <Route path="/viewBugs">ViewBugs</Route>
+         </Switch>
     </>
     }
    </Router>
