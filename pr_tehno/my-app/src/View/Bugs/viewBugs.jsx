@@ -8,7 +8,7 @@ export default()=>{
     const [DISPLAY_BUG,SET_DISPLAY_BUG]=useState({
         name:"",
         isDisplayed:false
-    })
+    }) 
     const dispatch=useDispatch();
     const {bugs}=useSelector(state=>state);
 

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React, { version } from 'react';
 import './bug.css';
 
@@ -8,9 +9,9 @@ export default (props)=>{
     }
     return (
         <div className="bug" onClick={Clicked}>
-           <h1 className="name">{name}</h1>
-           <h2 className="priority">{priority}</h2>
-           <h3 className="version">{version}</h3>
+           <h2 className="name">{name}</h2>
+           <h3 className="priority">{priority}</h3>
+           <h4 className="version">{version}</h4>
         </div>
     )
 }
